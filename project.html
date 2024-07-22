@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Smart matériaux </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- Topbar Start -->
+<div class="container-fluid bg-dark p-0">
+    <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                <small>123 Bloc D Hay Saadiane,
+                    Guelmim 81000,
+                    Morocco</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center">
+                <small class="far fa-clock text-primary me-2"></small>
+                <small>Lun - Ven : 09h00 - 19h00</small>
+            </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+            <div class="h-100 d-inline-flex align-items-center me-4">
+                <small class="fa fa-phone-alt text-primary me-2"></small>
+                <small>+212 663-314930</small>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center mx-n2">
+                <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary"  href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.x.com"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <div class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <img src="/img/aaa.ico" alt=" Logo" class="img-fluid mr-10" style="height: 70px;">
+    </div>
+      
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Accueil</a>
+            <a href="about.html" class="nav-item nav-link">À propos de nous</a>
+            <a href="service.html" class="nav-item nav-link">Nos Services</a>
+            <a href="project.html" class="nav-item nav-link"> Nos projets</a>
+            <a href="404.html" class="nav-item nav-link"> Nos Produits</a>
+            
+        </div>
+        <a href="contact.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Contactez-nous<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Nos projets</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+     <!-- Projects Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Nos Réalisations</h6>
+                <h1 class="mb-4">Smart matériaux a réalisé plus de 200 installations à travers le Maroc </h1>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Maison & Villa</li>
+                        <li class="mx-2" data-filter=".second">Agriculteurs</li>
+                        <li class="mx-2" data-filter=".third">Usines</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+                
+                
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/NoImage.jpg" alt="">
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">projet</p>
+                        <hr class="text-primary w-25 my-2">
+                        <h5 class="lh-base">Pas de description pour ce projet pour l'instant.</h5>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+     <!-- Contact Start -->
+     <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
+        <div class="container contact px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Contactez-nous</h6>
+                        <h1 class="mb-4">N'hésitez pas à nous contacter</h1>
+                        <p class="mb-4">Nous sommes là pour répondre à vos questions et vous fournir toute l'assistance dont vous avez besoin. N'hésitez pas à nous contacter pour discuter de vos projets, obtenir des informations supplémentaires ou planifier une consultation gratuite. Nous sommes impatients de vous aider à réaliser vos objectifs en matière d'énergie solaire.</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Votre Nom:</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <label for="email">Votre Email :</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <label for="subject">Sujet :</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Message :</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Envoyer un message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436.22917277451387!2d-10.04701843927506!3d28.992307962168617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb503456914dbe1%3A0x346d27cf59906bf3!2sSte%20Smart%20mat%C3%A9riaux!5e0!3m2!1sen!2sma!4v1721528122216!5m2!1sen!2sma"
+                        frameborder="0" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+     <!-- Testimonial Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Témoignage</h6>
+                <h1 class="mb-4">Ce que disent nos clients !</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Service client impeccable, réactif et professionnel. Nous sommes ravis de notre collaboration avec cette entreprise.</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>قد أعجبت بالاحترافية والتزام فريق هذه الشركة. نجحوا في تلبية كل احتياجاتي بكفاءة ودقة</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Service client impeccable, réactif et professionnel. Nous sommes ravis de notre collaboration avec cette entreprise.</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Service client impeccable, réactif et professionnel. Nous sommes ravis de notre collaboration avec cette entreprise.</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>قد أعجبت بالاحترافية والتزام فريق هذه الشركة. نجحوا في تلبية كل احتياجاتي بكفاءة ودقة</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    
+                    <div class="testimonial-text text-center rounded p-4">
+                        <p>Service client impeccable, réactif et professionnel. Nous sommes ravis de notre collaboration avec cette entreprise.</p>
+                        <h5 class="mb-1">X</h5>
+                        <span class="fst-italic">client</span>
+                    </div>
+                </div>
+
+
+
+                
+            </div>
+
+            
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Adresse</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>  123 Bloc D Hay Saadiane, Guelmim 81000, Morocco</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 663-314930</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>smartmateriaux2020@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Liens Rapides</h5>
+                    <a class="btn btn-link" href="about.html">À propos de nous</a>
+                    <a class="btn btn-link" href="contact.html">Contactez-nous</a>
+                    <a class="btn btn-link" href="service.html">Nos Services</a>
+                    <a class="btn btn-link" href="">Termes et Conditions</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>             
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Galerie de projets</h5>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/exp8.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/pic1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/pic2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/pic3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/Villa.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded" src="img/vvv.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">SMART MATERIAUX</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed By <a href="">Brahim Er-rays</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
